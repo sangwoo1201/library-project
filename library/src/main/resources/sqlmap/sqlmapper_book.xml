@@ -3,5 +3,16 @@
 <mapper namespace="com.example.library.mapper.Mapper">
 
 	<!-- 매핑 내용(sql문) -->
+	<!-- 책 전체 정보조회 -->
+	<select id="">
+		SELECT
+			unique_number,
+			name,
+			genre,
+			author,
+			isUse
+		FROM bookinfo
+	</select>
+
 
 </mapper>

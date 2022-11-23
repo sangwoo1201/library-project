@@ -6,6 +6,7 @@ public class BookVO {
 	private String name;
 	private String genre;
 	private String author;
+	private boolean isUse;
 	
 	public int getUniqueNumber() {
 		return uniqueNumber;
@@ -30,6 +31,12 @@ public class BookVO {
 	}
 	public void setAuthor(String author) {
 		this.author = author;
+	}
+	public boolean isUse() {
+		return isUse;
+	}
+	public void setUse(boolean isUse) {
+		this.isUse = isUse;
 	}
 	
 }
