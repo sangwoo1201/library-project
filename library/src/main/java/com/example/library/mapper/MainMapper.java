@@ -10,6 +10,7 @@ import com.example.library.vo.BookVO;
 @Mapper
 public interface MainMapper {
 	
+	// 책 전체 리스트 조회
 	public List<Map<String, Object>> selectAllBooks();
 	
 }
